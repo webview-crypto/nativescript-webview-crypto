@@ -1,0 +1,34 @@
+{
+  "name": "nativescript-webview-crypto",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saulshanabrook/nativescript-webview-crypto.git"
+  },
+  "description": "window.crypto for NativeScript via a WebView ",
+  "scripts": {
+    "prepublish": "rm -rf dist && bash build-nativeScriptWebViewInterface.bash && tsc || true && cp src/index.d.ts dist"
+  },
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "author": "Saul Shanabrook",
+  "license": "MIT",
+  "nativescript": {},
+  "dependencies": {
+    "webview-crypto": "0.1.5",
+    "nativescript-webview-interface": "saulshanabrook/nativescript-webview-interface"
+  },
+  "peerDependencies": {
+    "tns-core-modules": "*"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-preset-es2015": "^6.13.2",
+    "tns-core-modules": "2.2.1",
+    "typescript": "1.8.10"
+  }
+}

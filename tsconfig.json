@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "isolatedModules": false,
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "declaration": true,
+    "noImplicitAny": false,
+    "noImplicitUseStrict": false,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "suppressImplicitAnyIndexErrors": false
+  },
+  "filesGlob": [
+    "node_modules/tns-core-modules/tns-core-modules.d.ts",
+    "./src/*.ts"
+  ],
+  "files": [
+    "node_modules/tns-core-modules/tns-core-modules.d.ts",
+    "./src/globals.d.ts",
+    "./src/htmlString.ts",
+    "./src/index.android.ts",
+    "./src/index.d.ts",
+    "./src/index.ios.ts",
+    "./src/initWebView.ts",
+    "./src/nativeScriptWebViewInterfaceString.ts"
+  ],
+  "compileOnSave": true,
+  "buildOnSave": true,
+  "atom": {
+    "rewriteTsconfig": true
+  }
+}

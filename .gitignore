@@ -1,0 +1,4 @@
+node_modules
+dist
+src/nativeScriptWebViewInterfaceString.ts
+src/*.js
