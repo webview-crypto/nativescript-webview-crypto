@@ -1,7 +1,7 @@
 # nativescript-webview-crypto
 
-[![npm](https://img.shields.io/npm/v/react-native-webview-crypto.svg?maxAge=2592000?style=flat-square)](https://www.npmjs.com/package/react-native-webview-crypto)
-[![Dependency Status](https://dependencyci.com/github/saulshanabrook/react-native-webview-crypto/badge)](https://dependencyci.com/github/saulshanabrook/react-native-webview-crypto)
+[![npm](https://img.shields.io/npm/v/nativescript-webview-crypto.svg?maxAge=2592000?style=flat-square)](https://www.npmjs.com/package/nativescript-webview-crypto)
+[![Dependency Status](https://dependencyci.com/github/saulshanabrook/nativescript-webview-crypto/badge)](https://dependencyci.com/github/saulshanabrook/nativescript-webview-crypto)
 
 This brings `window.Crypto` to your React Native application. It does this
 by communicating with a hidden WebView, which performs the actual
