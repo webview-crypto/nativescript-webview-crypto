@@ -10,6 +10,9 @@ computation.
 Refer to the [`webview-crypto`](https://github.com/saulshanabrook/webview-crypto)
 repo for most of the code and some cavaets.
 
+If you are using Angular2 with Nativescript, you should use
+[`nativescript-angular-webview-crypto`](https://github.com/saulshanabrook/nativescript-angular-webview-crypto).
+
 *This project is funded by [Burke Software and Consulting LLC](http://burkesoftware.com/) for [passit](http://passit.io/). We are available for hire for any improvement and integration needs on this project. Open an issue to start a conversation or email info @ burke software dot come.*
 
 
