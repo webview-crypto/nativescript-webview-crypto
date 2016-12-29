@@ -19,7 +19,7 @@
   "license": "MIT",
   "nativescript": {},
   "dependencies": {
-    "webview-crypto": "0.1.7",
+    "webview-crypto": "0.1.8",
     "nativescript-webview-interface": "saulshanabrook/nativescript-webview-interface"
   },
   "peerDependencies": {
