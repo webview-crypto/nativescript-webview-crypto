@@ -1,4 +1,6 @@
 node_modules
-dist
 src/nativeScriptWebViewInterfaceString.ts
 src/*.js
+src/*.d.ts
+!src/index.d.ts
+src/*.map
