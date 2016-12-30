@@ -18,8 +18,8 @@
   "license": "MIT",
   "nativescript": {},
   "dependencies": {
-    "nativescript-webview-interface": "1.3.4",
-    "webview-crypto": "0.1.8"
+    "nativescript-webview-interface": "saulshanabrook/nativescript-webview-interface",
+    "webview-crypto": "0.1.9"
   },
   "peerDependencies": {
     "tns-core-modules": "*"
