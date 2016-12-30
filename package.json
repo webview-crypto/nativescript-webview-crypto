@@ -19,7 +19,7 @@
   "nativescript": {},
   "dependencies": {
     "nativescript-webview-interface": "saulshanabrook/nativescript-webview-interface",
-    "webview-crypto": "0.1.9"
+    "webview-crypto": "0.1.10"
   },
   "peerDependencies": {
     "tns-core-modules": "*"
